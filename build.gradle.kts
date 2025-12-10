@@ -31,7 +31,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
-group = "de.maxbossing"
+group = "de.rygelgaspar"
 version = 1
 
 repositories {
@@ -66,9 +66,9 @@ tasks {
 }
 
 bukkit {
-    name = "PoisonedPlugin"
-    author = "Max Bossing <info@maxbossing.de>"
-    main = "de.maxbossing.poisonedplugin.PoisonedPlugin"
+    name = "rybdoor"
+    author = "Rygel Gaspar"
+    main = "de.rygelgaspar.rybdoor.rybDoor"
     apiVersion = "1.20"
 
     softDepend = listOf(
